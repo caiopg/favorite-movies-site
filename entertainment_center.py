@@ -1,6 +1,8 @@
 import fresh_tomatoes
 from media import Movie
 
+'''This python file creates a html with my favorite movies.'''
+
 # Start creation of favorite movie objects
 
 # Creation of Matrix Movie object: title, poster url, trailer url
