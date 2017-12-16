@@ -1,6 +1,7 @@
 import fresh_tomatoes
 from media import Movie
 
+#Creation of favorite movie objects
 matrix = Movie("Matrix",
                "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
                "https://www.youtube.com/watch?v=m8e-FF8MsqU")
@@ -29,6 +30,8 @@ interstellar = Movie("Interstellar",
                "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
                "https://www.youtube.com/watch?v=zSWdZVtXT7E")
 
+#Putting all movie objects into list
 movies = [matrix, matrix_reloaded, matrix_revolutions, inception, shutter_island, interstellar]
 
+#Creation of html for website
 fresh_tomatoes.open_movies_page(movies)
